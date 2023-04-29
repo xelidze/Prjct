@@ -1,0 +1,178 @@
+#LoginAndSignUp{
+    height: 90%;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+#Login2{
+    width: 73%;
+    height: 84%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#SignUpTxt{
+    display: flex;
+    height: 78%;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    animation-name: fade;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+#SignInHead{
+    display: flex;
+    width: 89%;
+    justify-content: center;
+    height: 37px;
+    align-items: center;
+}
+#Log{
+    width: 36%;
+    display: flex;
+    justify-content: center;
+    height: 29px;
+    align-items: center;
+    background: lightgray;
+    transition: 0.5s;
+}
+#Sign{
+    width: 36%;
+    display: flex;
+    justify-content: center;
+    height: 29px;
+    align-items: center;
+    background: #EAF6FF;
+    transition: 0.5s;
+}
+#TextSign{
+    display: flex;
+    flex-direction: column;
+    height: 63px;
+    width: 60%;
+    justify-content: space-evenly;
+}
+#FirstSignT{
+    font-size: 18px;
+}
+#SecondSignT{
+    font-size: 11px;
+    color: gray;
+}
+#ForINputAll{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    width: 58%;
+    height: 168px;
+    justify-content: space-evenly;
+}
+#ForINputAll input{
+    text-decoration: none;
+    color: black;
+    outline: none;
+    border: none;
+    padding: 8px;
+    box-shadow: 0px 1px 0px 0px gray;
+}
+#CreateAcc{
+    background: red;
+    color: white;
+    height: 43px;
+    display: flex;
+    align-items: center;
+    width: 72%;
+    justify-content: center;
+    border-radius: 13px;
+    transition: 0.5s;
+}
+#LoginAll{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 160px;
+    width: 50%;
+    align-items: center;
+}
+#GoogleSign{
+    height: 43px;
+    display: flex;
+    align-items: center;
+    width: 72%;
+    justify-content: center;
+    border-radius: 13px;
+    color: red;
+    background-color: white;
+    border: solid red 1px;
+    transition: 0.5s;
+}
+#TextBottom{
+    display: flex;
+    width: 84%;
+    justify-content: space-around;
+}
+#HaveAcc{
+    font-size: 11px;
+    display: flex;
+    height: 20px;
+    align-items: center;
+    transition: 0.5s;
+}
+#Color{
+    color: deepskyblue;
+    transition: 0.5s;
+}
+#CreateAcc:hover{
+    width: 70%;
+    height: 30%;
+    cursor: pointer;
+}
+#GoogleSign:hover{
+    width: 70%;
+    height: 30%;
+    cursor: pointer;
+}
+#Color:hover{
+    font-size: 25px;
+    cursor: pointer;
+}
+#HaveAcc:hover{
+    font-size: 16px;
+    cursor: pointer;
+}
+#Sign:hover{
+    width: 40%;
+    height: 30px;
+    cursor: pointer;
+}
+#Log:hover{
+    width: 40%;
+    height: 30px;
+    cursor: pointer;
+}
+#SignUpTxt1{
+    display: none;
+    height: 78%;
+    flex-direction: column;
+    justify-content: center;
+    width: 75%;
+    animation-name: fade;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+@keyframes fade{
+    from{ opacity: 0;}
+    to{opacity: 1;}
+}
+#SignInHead1{
+    display: flex;
+    width: 70%;
+    height: 37px;
+    align-items: center;
+}

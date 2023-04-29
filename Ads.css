@@ -1,0 +1,98 @@
+#ManagerForAds{
+    height: 850px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+#AdsPost{
+    display: flex;
+    width: 75%;
+    height: 700px;
+    flex-direction: column;
+    background-color:  #EAF6FF;
+}
+#PostAd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    box-shadow: 0px 1px 0px 0px gray;
+}
+#Post{
+    height: 100%;
+    display: flex;
+    align-items: inherit;
+    font-size: 35px;
+    text-shadow: 1px 1px 0px gray;
+}
+#FirstTxtp{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#Txtp1{
+    display: flex;
+    width: 76%;
+    font-size: 25px;
+    font-weight: bold;
+}
+#Txtp2{
+    display: flex;
+    flex-direction: column;
+    width: 76%;
+    font-size: 17px;
+}
+#Txtp2 span{
+    font-size: 13px;
+}
+#Txtp3{
+    display: flex;
+    width: 76%;
+}
+#PostInput{
+    height: 391px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#PostInput input{
+    text-decoration: none;
+    outline: none;
+    border: none;
+    background: none;
+    height: 48px;
+    display: flex;
+    width: 74%;
+    border: solid 1px;
+    border-radius: 9px;
+}
+#Posttxt{
+    display: flex;
+    width: 19%;
+    height: 27px;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px red;
+    border-radius: 11px;
+    background: red;
+    color: white;
+    transition: 0.5s;
+}
+#PostButton{
+    display: flex;
+    height: 52px;
+    align-items: center;
+    justify-content: center;
+}
+#Posttxt:hover{
+    width: 20%;
+    height: 40px;
+    background-color: white;
+    color: red;
+    border-color: black;
+}
